@@ -1,12 +1,14 @@
 # WEB-CopiaDNI
 
+https://copiadni.com/
+
 A secure web application for processing identity documents with a privacy-first approach, built with Node.js and hosted on [CloudPanel.io](https://www.cloudpanel.io). This application allows users to process identity document images securely by converting them to black and white and adding customizable watermarks. All processing occurs locally in the user's browser, ensuring maximum privacy and security.
 
 *Read this in: [English](README.md), [Spanish](README_ES.md)*
 
 ## Infrastructure & Technology Stack
 
-The application is hosted on a Ubuntu Minimal cloud instance managed through CloudPanel.io, a modern server control panel that supports Node.js applications. CloudPanel.io provides an optimized environment for Node.js deployments, offering automated SSL certificate management, process management and streamlined deployment capabilities.
+At its core, this web application is built primarily with JavaScript, leveraging modern web development technologies. The application uses JavaScript both for the user interface (frontend) and the server (backend), which is made possible through Node.js. This unified approach to development, using a single programming language throughout the entire application, significantly streamlines development and maintenance. **In the frontend**, React serves as the main framework for building the user interface, providing a smooth and responsive experience. This is complemented by Tailwind CSS, which provides ready-to-use styles and designs. **On the backend**, Node.js acts as the bridge that allows JavaScript to run on the server side. Node.js enables us to use JavaScript throughout the entire application. Express.js, building on top of Node.js, simplifies common server tasks like serving files to browsers. **The application** is hosted on a cloud infrastructure managed through CloudPanel.io, running on an Ubuntu Minimal instance. This setup provides a robust and efficient environment for running Node.js applications, with PM2 ensuring continuous operation by managing and automatically restarting the application if needed.
 
 ### Why Node.js?
 
