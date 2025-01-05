@@ -84,35 +84,38 @@ The application provides a straightforward and secure way to process identity do
 
 ## Core Architecture Overview
 
-This repository includes a core.js file that provides a high-level architectural representation of the application. While the actual implementation is distributed across multiple components and files, this core architecture demonstrates how different parts of the system interact.
-The relationship between the core architecture and the project structure can be visualized as follows:
+To provide a better understanding of the application's architecture, this repository includes a `core.js` file that demonstrates the fundamental structure and flow of the application. This file serves as a technical documentation that illustrates how different components interact within the system.
+
+The architecture overview in `core.js` reflects the actual implementation distributed across the project's components, showing how the application manages image processing, user interface interactions, and security measures. It provides insights into the state management, component hierarchy, and processing pipeline without exposing sensitive implementation details.
+
+The architectural representation demonstrates several key aspects of the system:
 
 ```mermaid
 graph TD
-    subgraph "Core Architecture Components"
-        DC[DocumentProcessor]
-        WM[WatermarkManager]
-        CM[CameraManager]
-        SM[SecurityManager]
-        AC[ApplicationController]
+    subgraph "Application Flow"
+        UI[User Interface] --> IC[Image Capture/Upload]
+        IC --> P[Processing]
+        P --> D[Download]
     end
 
-    subgraph "Project Implementation"
-        IP[imageProcessing.js]
-        CC[CameraCapture]
-        WC[WatermarkControls]
-        AB[ActionButtons]
-        LN[LegalNotice]
+    subgraph "Component Structure"
+        A[App.jsx] --> L[Layout Components]
+        A --> I[Image Components]
+        A --> C[UI Controls]
+        
+        L --> H[Header]
+        L --> B[Body]
+        
+        I --> UP[Image Uploader]
+        I --> CP[Camera Capture]
+        I --> PR[Preview]
+        
+        C --> W[Watermark Controls]
+        C --> AC[Action Buttons]
     end
 
-    DC --> IP
-    CM --> CC
-    WM --> WC
-    AC --> AB
-    SM --> LN
-
-    style "Core Architecture Components" fill:#f9f,stroke:#333,stroke-width:2px
-    style "Project Implementation" fill:#bbf,stroke:#333,stroke-width:2px
+    style "Application Flow" fill:#f9f,stroke:#333,stroke-width:2px
+    style "Component Structure" fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
 ## Development Architecture
