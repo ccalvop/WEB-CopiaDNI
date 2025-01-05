@@ -87,6 +87,7 @@ The application provides a straightforward and secure way to process identity do
 This repository includes a core.js file that provides a high-level architectural representation of the application. While the actual implementation is distributed across multiple components and files, this core architecture demonstrates how different parts of the system interact.
 The relationship between the core architecture and the project structure can be visualized as follows:
 
+```mermaid
 graph TD
     subgraph "Core Architecture Components"
         DC[DocumentProcessor]
@@ -112,6 +113,7 @@ graph TD
 
     style "Core Architecture Components" fill:#f9f,stroke:#333,stroke-width:2px
     style "Project Implementation" fill:#bbf,stroke:#333,stroke-width:2px
+```
 
 ## Development Architecture
 
