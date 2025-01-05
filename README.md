@@ -92,13 +92,13 @@ The architectural representation demonstrates several key aspects of the system:
 
 ```mermaid
 graph TD
-    subgraph "Application Flow"
+    subgraph ApplicationFlow
         UI[User Interface] --> IC[Image Capture/Upload]
         IC --> P[Processing]
         P --> D[Download]
     end
 
-    subgraph "Component Structure"
+    subgraph ComponentStructure
         A[App.jsx] --> L[Layout Components]
         A --> I[Image Components]
         A --> C[UI Controls]
@@ -114,8 +114,8 @@ graph TD
         C --> AC[Action Buttons]
     end
 
-    style "Application Flow" fill:#f9f,stroke:#333,stroke-width:2px
-    style "Component Structure" fill:#bbf,stroke:#333,stroke-width:2px
+    style ApplicationFlow fill:#f9f,stroke:#333,stroke-width:2px
+    style ComponentStructure fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
 ## Development Architecture
