@@ -82,6 +82,37 @@ The application provides a straightforward and secure way to process identity do
 └── package-lock.json
 ```
 
+## Core Architecture Overview
+
+This repository includes a core.js file that provides a high-level architectural representation of the application. While the actual implementation is distributed across multiple components and files, this core architecture demonstrates how different parts of the system interact.
+The relationship between the core architecture and the project structure can be visualized as follows:
+
+graph TD
+    subgraph "Core Architecture Components"
+        DC[DocumentProcessor]
+        WM[WatermarkManager]
+        CM[CameraManager]
+        SM[SecurityManager]
+        AC[ApplicationController]
+    end
+
+    subgraph "Project Implementation"
+        IP[imageProcessing.js]
+        CC[CameraCapture]
+        WC[WatermarkControls]
+        AB[ActionButtons]
+        LN[LegalNotice]
+    end
+
+    DC --> IP
+    CM --> CC
+    WM --> WC
+    AC --> AB
+    SM --> LN
+
+    style "Core Architecture Components" fill:#f9f,stroke:#333,stroke-width:2px
+    style "Project Implementation" fill:#bbf,stroke:#333,stroke-width:2px
+
 ## Development Architecture
 
 ```mermaid
