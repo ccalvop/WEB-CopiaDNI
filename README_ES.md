@@ -84,9 +84,9 @@ La aplicación proporciona una forma sencilla y segura de procesar documentos de
 
 ## Descripción de la Arquitectura 
 
-Para mostrar una mejor comprensión de la arquitectura de la aplicación, este repositorio incluye un archivo core.js que demuestra la estructura y el flujo de la aplicación. Este archivo tipo skeleton sirve como documentación técnica que ilustra cómo interactúan los diferentes componentes.
+Para mostrar una mejor comprensión de la arquitectura de la aplicación, este repositorio incluye un archivo [core.js](core.js) que demuestra la estructura y el flujo de la aplicación. Este archivo tipo skeleton sirve como documentación técnica que ilustra cómo interactúan los diferentes componentes.
 
-**Core.js** refleja la implementación real los componentes del proyecto y muestra cómo la aplicación administra el procesamiento de imágenes, las interacciones de la interfaz de usuario y las medidas de seguridad. Proporciona información sobre la administración de estados, la jerarquía de componentes y el flujo de procesamiento sin exponer detalles confidenciales de la implementación.
+`core.js` refleja la implementación real los componentes del proyecto y muestra cómo la aplicación administra el procesamiento de imágenes, las interacciones de la interfaz de usuario y las medidas de seguridad. Proporciona información sobre la administración de estados, la jerarquía de componentes y el flujo de procesamiento sin exponer detalles confidenciales de la implementación.
 
 ```mermaid
 graph TD
