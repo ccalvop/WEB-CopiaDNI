@@ -48,37 +48,37 @@ La aplicación proporciona una forma sencilla y segura de procesar documentos de
 
 ```
 .
-├── src/                                # Source code directory containing all application components
-│   ├── components/                     # React components organized by functionality
-│   │   ├── image/                      # Components handling image operations
-│   │   │   ├── CameraCapture.jsx       # Manages device camera access and photo capture
-│   │   │   ├── ImagePreview.jsx        # Displays original and processed images
-│   │   │   └── ImageUploader.jsx       # Handles file selection and image upload
-│   │   ├── layout/                     # Structural components
-│   │   │   ├── Header.jsx              # Application header with title and description
-│   │   │   └── Body.jsx                # Main content wrapper component
-│   │   └── ui/                         # User interface components
-│   │       ├── ActionButtons.jsx       # Process, download, and cancel operation buttons
-│   │       ├── WatermarkControls.jsx   # Watermark text, color, and opacity controls
-│   │       ├── InstructionsModal.jsx   # Usage instructions modal dialog
-│   │       └── LegalNotice.jsx         # Privacy and legal information component
-│   ├── utils/                          # Utility functions and helpers
-│   │   └── imageProcessing.js          # Core image processing and watermark logic
-│   ├── assets/                         # Static assets directory
-│   │   └── react.svg                   # React logo asset
-│   ├── App.jsx                         # Main application component and state management
-│   ├── App.css                         # Application-specific styles
-│   ├── main.jsx                        # Application entry point
-│   └── index.css                       # Global CSS styles
-├── public/                             # Public assets directory
-│   ├── vite.svg                        # Vite logo asset
-│   └── ejemplo-procesado.jpg           # Example processed document image
-├── server.js                           # Node.js server configuration and setup
-├── vite.config.js                      # Vite build tool configuration
-├── tailwind.config.js                  # Tailwind CSS framework configuration
-├── postcss.config.js                   # PostCSS processing configuration
-├── eslint.config.js                    # ESLint code quality configuration
-└── package.json                        # Project dependencies and scripts
+├── src/                                # Directorio de código fuente con todos los componentes
+│   ├── components/                     # Componentes React organizados por funcionalidad
+│   │   ├── image/                      # Componentes de manejo de imágenes
+│   │   │   ├── CameraCapture.jsx       # Gestiona el acceso a la cámara y captura de fotos
+│   │   │   ├── ImagePreview.jsx        # Muestra las imágenes original y procesada
+│   │   │   └── ImageUploader.jsx       # Maneja la selección y subida de imágenes
+│   │   ├── layout/                     # Componentes estructurales
+│   │   │   ├── Header.jsx              # Encabezado con título y descripción
+│   │   │   └── Body.jsx                # Componente contenedor principal
+│   │   └── ui/                         # Componentes de interfaz de usuario
+│   │       ├── ActionButtons.jsx       # Botones de procesar, descargar y cancelar
+│   │       ├── WatermarkControls.jsx   # Controles de texto, color y opacidad de marca de agua
+│   │       ├── InstructionsModal.jsx   # Diálogo modal con instrucciones de uso
+│   │       └── LegalNotice.jsx         # Componente de información legal y privacidad
+│   ├── utils/                          # Funciones de utilidad y ayuda
+│   │   └── imageProcessing.js          # Lógica principal de procesamiento y marca de agua
+│   ├── assets/                         # Directorio de recursos estáticos
+│   │   └── react.svg                   # Logo de React
+│   ├── App.jsx                         # Componente principal y gestión de estado
+│   ├── App.css                         # Estilos específicos de la aplicación
+│   ├── main.jsx                        # Punto de entrada de la aplicación
+│   └── index.css                       # Estilos CSS globales
+├── public/                             # Directorio de recursos públicos
+│   ├── vite.svg                        # Logo de Vite
+│   └── ejemplo-procesado.jpg           # Imagen de ejemplo de documento procesado
+├── server.js                           # Configuración y configuración del servidor Node.js
+├── vite.config.js                      # Configuración de la herramienta de construcción Vite
+├── tailwind.config.js                  # Configuración del framework Tailwind CSS
+├── postcss.config.js                   # Configuración de procesamiento PostCSS
+├── eslint.config.js                    # Configuración de calidad de código ESLint
+└── package.json                        # Dependencias y scripts del proyecto
 ```
 
 ## Descripción de la Arquitectura 
