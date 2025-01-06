@@ -84,7 +84,7 @@ The application provides a straightforward and secure way to process identity do
 
 ## Core Architecture Overview
 
-To provide a better understanding of the application's architecture, this repository includes a `core.js` https://github.com/ccalvop/WEB-CopiaDNI/blob/main/core.js file that demonstrates the fundamental structure and flow of the application. This file serves as a technical documentation that illustrates how different components interact within the system.
+To provide a better understanding of the application's architecture, this repository includes a [core.js](core.js) file that demonstrates the fundamental structure and flow of the application. This file serves as a technical documentation that illustrates how different components interact within the system.
 
 The architecture overview in `core.js` reflects the actual implementation distributed across the project's components, showing how the application manages image processing, user interface interactions, and security measures. It provides insights into the state management, component hierarchy, and processing pipeline without exposing sensitive implementation details.
 
