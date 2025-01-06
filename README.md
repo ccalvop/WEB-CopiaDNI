@@ -48,7 +48,7 @@ The application provides a straightforward and secure way to process identity do
 
 ```
 .
-├── src/                                # Source code directory containing all application components
+├── src/                                # Source code directory
 │   ├── components/                     # React components organized by functionality
 │   │   ├── image/                      # Components handling image operations
 │   │   │   ├── CameraCapture.jsx       # Manages device camera access and photo capture
