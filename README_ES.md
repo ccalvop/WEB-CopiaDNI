@@ -82,13 +82,11 @@ La aplicación proporciona una forma sencilla y segura de procesar documentos de
 └── package-lock.json
 ```
 
-## Descripción de la Arquitectura Principal
+## Descripción de la Arquitectura 
 
-Este repositorio incluye un archivo core.js que demuestra la estructura fundamental y el flujo de la aplicación. Este archivo sirve como documentación técnica que ilustra cómo interactúan los diferentes componentes dentro del sistema.
+Para mostrar una mejor comprensión de la arquitectura de la aplicación, este repositorio incluye un archivo core.js que demuestra la estructura y el flujo de la aplicación. Este archivo tipo skeleton sirve como documentación técnica que ilustra cómo interactúan los diferentes componentes.
 
-La descripción arquitectónica en core.js refleja la implementación real distribuida entre los componentes del proyecto, mostrando cómo la aplicación gestiona el procesamiento de imágenes, las interacciones de la interfaz de usuario y las medidas de seguridad. Proporciona información sobre la gestión del estado, la jerarquía de componentes y el proceso de procesamiento sin exponer detalles sensibles de la implementación.
-
-La representación arquitectónica demuestra varios aspectos clave del sistema:
+**Core.js** refleja la implementación real los componentes del proyecto y muestra cómo la aplicación administra el procesamiento de imágenes, las interacciones de la interfaz de usuario y las medidas de seguridad. Proporciona información sobre la administración de estados, la jerarquía de componentes y el flujo de procesamiento sin exponer detalles confidenciales de la implementación.
 
 ```mermaid
 graph TD
