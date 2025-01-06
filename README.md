@@ -78,8 +78,7 @@ The application provides a straightforward and secure way to process identity do
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── eslint.config.js
-├── package.json
-└── package-lock.json
+└── package.json
 ```
 
 ## Core Architecture Overview
