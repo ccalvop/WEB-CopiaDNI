@@ -78,8 +78,7 @@ La aplicación proporciona una forma sencilla y segura de procesar documentos de
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── eslint.config.js
-├── package.json
-└── package-lock.json
+└── package.json
 ```
 
 ## Descripción de la Arquitectura 
