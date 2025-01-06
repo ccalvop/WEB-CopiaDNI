@@ -48,37 +48,37 @@ La aplicación proporciona una forma sencilla y segura de procesar documentos de
 
 ```
 .
-├── src/
-│   ├── components/
-│   │   ├── image/
-│   │   │   ├── CameraCapture.jsx
-│   │   │   ├── ImagePreview.jsx
-│   │   │   └── ImageUploader.jsx
-│   │   ├── layout/
-│   │   │   ├── Header.jsx
-│   │   │   └── Body.jsx
-│   │   └── ui/
-│   │       ├── ActionButtons.jsx
-│   │       ├── WatermarkControls.jsx
-│   │       ├── InstructionsModal.jsx
-│   │       └── LegalNotice.jsx
-│   ├── utils/
-│   │   └── imageProcessing.js
-│   ├── assets/
-│   │   └── react.svg
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── index.css
-├── public/
-│   ├── vite.svg
-│   └── ejemplo-procesado.jpg
-├── server.js
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-├── eslint.config.js
-└── package.json
+├── src/                                # Source code directory containing all application components
+│   ├── components/                     # React components organized by functionality
+│   │   ├── image/                      # Components handling image operations
+│   │   │   ├── CameraCapture.jsx       # Manages device camera access and photo capture
+│   │   │   ├── ImagePreview.jsx        # Displays original and processed images
+│   │   │   └── ImageUploader.jsx       # Handles file selection and image upload
+│   │   ├── layout/                     # Structural components
+│   │   │   ├── Header.jsx              # Application header with title and description
+│   │   │   └── Body.jsx                # Main content wrapper component
+│   │   └── ui/                         # User interface components
+│   │       ├── ActionButtons.jsx       # Process, download, and cancel operation buttons
+│   │       ├── WatermarkControls.jsx   # Watermark text, color, and opacity controls
+│   │       ├── InstructionsModal.jsx   # Usage instructions modal dialog
+│   │       └── LegalNotice.jsx         # Privacy and legal information component
+│   ├── utils/                          # Utility functions and helpers
+│   │   └── imageProcessing.js          # Core image processing and watermark logic
+│   ├── assets/                         # Static assets directory
+│   │   └── react.svg                   # React logo asset
+│   ├── App.jsx                         # Main application component and state management
+│   ├── App.css                         # Application-specific styles
+│   ├── main.jsx                        # Application entry point
+│   └── index.css                       # Global CSS styles
+├── public/                             # Public assets directory
+│   ├── vite.svg                        # Vite logo asset
+│   └── ejemplo-procesado.jpg           # Example processed document image
+├── server.js                           # Node.js server configuration and setup
+├── vite.config.js                      # Vite build tool configuration
+├── tailwind.config.js                  # Tailwind CSS framework configuration
+├── postcss.config.js                   # PostCSS processing configuration
+├── eslint.config.js                    # ESLint code quality configuration
+└── package.json                        # Project dependencies and scripts
 ```
 
 ## Descripción de la Arquitectura 
